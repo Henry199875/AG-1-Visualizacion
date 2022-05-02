@@ -12,7 +12,7 @@ var visualization = d3plus.viz()
  .y("value")
  .draw()
 
- d3.json("raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {
+ d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {
 
   var visualization = d3plus.viz()
   
